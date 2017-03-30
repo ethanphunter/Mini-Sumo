@@ -1,6 +1,8 @@
 # Mini-Sumo
 Code for Arduino Mini Sumo Robots
 
+[North American Robotics Association](https://narobotics.org/)
+
 ## Table of Contents
 [Motor Test Code](./motorTest.ino)
 
