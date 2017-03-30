@@ -4,6 +4,8 @@ Code for Arduino Mini Sumo Robots
 ## Table of Contents
 [Motor Test Code](./motorTest.ino)
 
+[Sensor Test Code](./sensorTest.ino)
+
 [Basic Run Code](./basicRunCode.ino)
 
 # Contributions

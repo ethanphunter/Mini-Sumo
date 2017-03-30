@@ -112,7 +112,7 @@ void loop() {
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------
-//Functions, normaly these are put in a header file, placed here for your convience
+// Functions, normaly these are put in a header file, but are placed here for your convience
 //-----------------------------------------------------------------------------------------------------------------------------------
 
 // Sensor check
