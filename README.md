@@ -6,6 +6,8 @@ Code for Arduino Mini Sumo Robots
 
 [Sensor Test Code](./sensorTest.ino)
 
+[Line Following Code](./lineFollowing.ino)
+
 [Basic Run Code](./basicRunCode.ino)
 
 # Contributions
