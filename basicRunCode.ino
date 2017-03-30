@@ -9,7 +9,7 @@
 Servo servoR; // Declare servo variables
 Servo servoL;
 
-
+// Set vaules for pin in variables
 #define servoR_pin 10 // Servos
 #define servoL_pin 11
 #define lineR_pin 5   // Line sensors
@@ -116,7 +116,7 @@ void loop() {
 //-----------------------------------------------------------------------------------------------------------------------------------
 
 // Sensor check
-int sensors() { // int because its returning variables
+void sensors() {
   midR = analogRead(midR_pin);
   midL = analogRead(midL_pin);
   prox = digitalRead(prox_pin);

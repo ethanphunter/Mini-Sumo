@@ -10,7 +10,9 @@ Code for Arduino Mini Sumo Robots
 
 [Basic Run Code](./basicRunCode.ino)
 
-# Contributions
-The base of the code was created by Nate Lawernce-Richards for the University of Northern Iowa Intro to Robotics Program.
+[Advanced Run Code](./advancedRunCode.ino)
 
-The code has been moved to github by Ethan Hunter for easier access, and he has cleaned up the style, and made some updates to the code to better reflect what is used in the course currently.
+# Contributions
+The base of the code was created by [Nate Lawernce-Richards](natelr@uni.edu) for the University of Northern Iowa Intro to Robotics Program.
+
+The code has been moved to github by [Ethan Hunter](https://github.com/ethanphunter) for easier access, and he has cleaned up the style, and made some updates to the code to better reflect what is used in the course currently.
