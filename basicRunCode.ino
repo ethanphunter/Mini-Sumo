@@ -53,7 +53,7 @@ void setup() {
   digitalWrite(LED1_pin, LOW); // After the condition is met the loop ends, LED goes off to indicate this
   delay(5000);                 // Now wait 5 sec, dealy is in milisecond
   servoR.attach(servoR_pin);   // Attaches the servo on pin (defined earlier) to the servo object
-  servoL.attach(servoL_pin);   // You attach the servos after the 5 second wait so they won't move at all before time is up, in case they aren't calebrated properly
+  servoL.attach(servoL_pin);   // You attach the servos after the 5 second wait so they won't move at all before time is up, in case they aren't calibrated properly
 }
 
 // Main loop, this will run continuously until the controller is reset
