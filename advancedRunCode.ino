@@ -90,14 +90,6 @@ void loop() {
 
   sensors();
 
-  // Target in front
-  if (prox == LOW){ // The front proximity sensor goes low when it detects an object
-    motors(100, 100); // Sets motors to drive full forward
-    digitalWrite(LED1_pin, HIGH);
-    digitalWrite(LED2_pin, HIGH);
-    delay(50);
-  }
-
   // Average out the sensor data from the midranges
   // Mid R averaging
   midR_total = midR_total - midR_readings[index];
@@ -120,9 +112,18 @@ void loop() {
   // Progress the index
   index = index + 1;
   // If we're at the end of the array...
-  if (index >= numReadings)
+  if (index >= numReadings) {
     // ...wrap around to the beginning:
     index = 0;
+  }
+
+  // Target in front
+  if (prox == LOW){ // The front proximity sensor goes low when it detects an object
+    motors(100, 100); // Sets motors to drive full forward
+    digitalWrite(LED1_pin, HIGH);
+    digitalWrite(LED2_pin, HIGH);
+    delay(50);
+  }
 
   // Midrange Sensor checks
   else if (midR_avg > threshold && midL_avg > threshold) { // Both mid range sensors are above the detection threshold
